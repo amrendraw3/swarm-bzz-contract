@@ -1,0 +1,8 @@
+await curve.buyPrice("10000000000000000", "10000000000000000")
+curve.buyPrice("10000000000000000", "10000000000000000")
+curve.buyPrice(1e16, "10000000000000000")
+curve.buyPrice(1e16, 100e16)
+const curve = BzzBondingCurve.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+BzzBondingCurve
+const BzzBondingCurve = await hh.ethers.getContractFactory("BzzBondingCurve");
+hh = require('hardhat')
